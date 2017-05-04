@@ -1,12 +1,15 @@
 package com.github.aya.jobs;
 
 import com.geccocrawler.gecco.annotation.*;
+import com.geccocrawler.gecco.request.HttpRequest;
 import com.geccocrawler.gecco.spider.HtmlBean;
 
 /**
  * Created by Administrator on 2017/5/3.
  */
 public class Page implements HtmlBean {
+
+
 
     @Attr("data-mediumthumb")
     @HtmlField(cssPath = "div.img.videoPreviewBg > a > img")

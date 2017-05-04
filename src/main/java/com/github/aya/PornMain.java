@@ -12,7 +12,7 @@ import java.io.IOException;
 /**
  * Created by Administrator on 2017/5/3.
  */
-public class Main {
+public class PornMain {
     public static void main(String[] args) throws IOException {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("applicationContext.xml");
         GeccoEngine.create()
